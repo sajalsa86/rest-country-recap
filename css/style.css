@@ -1,0 +1,22 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+}
+
+.countri {
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: azure;
+}
+
+.countries {
+    width: 1200px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
